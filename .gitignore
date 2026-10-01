@@ -1,0 +1,14 @@
+@"
+.venv/
+Backend/.venv/
+__pycache__/
+*.pyc
+.env
+Backend/.env
+Frontend/.env
+node_modules/
+Frontend/node_modules/
+dist/
+Frontend/dist/
+"@ | Set-Content .gitignore
+Backend/data/*.db
